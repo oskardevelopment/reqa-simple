@@ -1,16 +1,16 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
-	
+
 	<groupId>se.oskardevelopment.reqa.simple</groupId>
 	<artifactId>reqa-simple</artifactId>
 	<version>0.14.11-Alpha</version>
-	
+
 	<name>ReQA simple</name>
 	<description>Requirements Quality Assurance (ReQA) allows teams to verify their requirements and connect tests with the requirements they fulfill.
   ReQA simple is a simple ReQA edition without visualization and is compatible for Java 1.7.</description>
 	<url>http://www.oskardevelopment.se</url>
-	
+
 	<licenses>
 		<license>
 			<name>MIT license</name>
@@ -36,6 +36,11 @@
 			<groupId>com.google.code.gson</groupId>
 			<artifactId>gson</artifactId>
 			<version>2.2.4</version>
+		</dependency>
+		<dependency>
+			<groupId>junit</groupId>
+			<artifactId>junit</artifactId>
+			<version>4.11</version>
 		</dependency>
 		<dependency>
 			<groupId>org.reflections</groupId>
